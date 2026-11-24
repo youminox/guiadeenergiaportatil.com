@@ -96,52 +96,52 @@ export default function SolarFlowDiagramSvg() {
           3,000–4,000 Ciclos
         </text>
 
-        <g fontFamily="Inter, sans-serif" fontSize="10.5" fontWeight="700">
-          <g transform="translate(12 34)">
+        <g fontFamily="Inter, sans-serif" fontSize="9.3" fontWeight="700">
+          <g transform="translate(6 34)">
             <rect
-              width="180"
+              width="188"
               height="28"
               rx="14"
               fill="rgba(245,158,11,0.2)"
               stroke="rgba(245,158,11,0.65)"
             />
-            <text x="90" y="18" textAnchor="middle" fill="#fef08a">
+            <text x="94" y="18" textAnchor="middle" fill="#fef08a">
               ☀️ MPPT Solar: Límite Voc Seguro
             </text>
           </g>
-          <g transform="translate(204 48)">
+          <g transform="translate(206 48)">
             <rect
-              width="184"
+              width="188"
               height="28"
               rx="14"
               fill="rgba(16,185,129,0.22)"
               stroke="rgba(52,211,153,0.65)"
             />
-            <text x="92" y="18" textAnchor="middle" fill="#a7f3d0">
+            <text x="94" y="18" textAnchor="middle" fill="#a7f3d0">
               🔌 Salida DC / USB-C: 91% Efic.
             </text>
           </g>
-          <g transform="translate(16 336)">
+          <g transform="translate(6 336)">
             <rect
-              width="178"
+              width="188"
               height="28"
               rx="14"
               fill="rgba(2,132,199,0.28)"
               stroke="rgba(56,189,248,0.65)"
             />
-            <text x="89" y="18" textAnchor="middle" fill="#bae6fd">
+            <text x="94" y="18" textAnchor="middle" fill="#bae6fd">
               ⚡ Inversor Onda Pura: 85% + Idle
             </text>
           </g>
-          <g transform="translate(204 366)">
+          <g transform="translate(206 366)">
             <rect
-              width="184"
+              width="188"
               height="28"
               rx="14"
               fill="rgba(217,119,6,0.28)"
               stroke="rgba(251,191,36,0.65)"
             />
-            <text x="92" y="18" textAnchor="middle" fill="#fde68a">
+            <text x="94" y="18" textAnchor="middle" fill="#fde68a">
               🔋 XT60i (15A) vs DC8020 (Jackery)
             </text>
           </g>

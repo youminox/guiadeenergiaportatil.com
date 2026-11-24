@@ -204,9 +204,9 @@ export default function ScrollStory() {
 
                 <g className="torque-badge">
                   <rect
-                    x="62"
+                    x="46"
                     y="84"
-                    width="276"
+                    width="308"
                     height="36"
                     rx="10"
                     fill="#0B1520"
@@ -219,7 +219,7 @@ export default function ScrollStory() {
                     textAnchor="middle"
                     fontFamily="Outfit, sans-serif"
                     fontWeight="800"
-                    fontSize="11"
+                    fontSize="10.2"
                     fill="#fde68a"
                   >
                     MPPT SOLAR + CELDAS LiFePO4 + INVERSOR PURO
@@ -234,9 +234,9 @@ export default function ScrollStory() {
                   strokeWidth="8"
                 />
                 <rect
-                  x="96"
+                  x="84"
                   y="152"
-                  width="208"
+                  width="232"
                   height="136"
                   rx="20"
                   fill="#0f172a"
@@ -244,54 +244,54 @@ export default function ScrollStory() {
                   strokeWidth="4"
                 />
                 {/* Pantalla LCD */}
-                <rect x="118" y="172" width="164" height="46" rx="8" fill="#0284c7" fillOpacity="0.22" stroke="#38bdf8" strokeWidth="1.5" />
-                <text x="200" y="193" textAnchor="middle" fontFamily="Outfit, sans-serif" fontWeight="800" fontSize="14" fill="#10b981">
+                <rect x="102" y="170" width="196" height="48" rx="8" fill="#0284c7" fillOpacity="0.22" stroke="#38bdf8" strokeWidth="1.5" />
+                <text x="200" y="191" textAnchor="middle" fontFamily="Outfit, sans-serif" fontWeight="800" fontSize="13.5" fill="#10b981">
                   100% · 1024 Wh
                 </text>
-                <text x="200" y="210" textAnchor="middle" fontFamily="Inter, sans-serif" fontWeight="700" fontSize="10" fill="#fde68a">
-                  Salida: Router 15W + Refri 18W + Laptop 55W
+                <text x="200" y="209" textAnchor="middle" fontFamily="Inter, sans-serif" fontWeight="700" fontSize="8.8" fill="#fde68a">
+                  88W: Router 15W + Refri 18W + Laptop 55W
                 </text>
 
                 {/* Puertos frontales AC / USB-C / 12V */}
-                <rect x="118" y="234" width="46" height="34" rx="6" fill="#1e293b" stroke="#94a3b8" strokeWidth="1.5" />
-                <text x="141" y="255" textAnchor="middle" fontSize="10" fontWeight="800" fill="#e2e8f0">
+                <rect x="102" y="234" width="56" height="34" rx="6" fill="#1e293b" stroke="#94a3b8" strokeWidth="1.5" />
+                <text x="130" y="255" textAnchor="middle" fontSize="9.2" fontWeight="800" fill="#e2e8f0">
                   AC 120V
                 </text>
-                <rect x="177" y="234" width="52" height="34" rx="6" fill="#1e293b" stroke="#10b981" strokeWidth="1.5" />
-                <text x="203" y="255" textAnchor="middle" fontSize="10" fontWeight="800" fill="#6ee7b7">
+                <rect x="166" y="234" width="68" height="34" rx="6" fill="#1e293b" stroke="#10b981" strokeWidth="1.5" />
+                <text x="200" y="255" textAnchor="middle" fontSize="9.2" fontWeight="800" fill="#6ee7b7">
                   USB-C 100W
                 </text>
-                <rect x="242" y="234" width="40" height="34" rx="6" fill="#1e293b" stroke="#f59e0b" strokeWidth="1.5" />
-                <text x="262" y="255" textAnchor="middle" fontSize="10" fontWeight="800" fill="#fde68a">
+                <rect x="242" y="234" width="56" height="34" rx="6" fill="#1e293b" stroke="#f59e0b" strokeWidth="1.5" />
+                <text x="270" y="255" textAnchor="middle" fontSize="9.2" fontWeight="800" fill="#fde68a">
                   12V DC
                 </text>
 
                 {/* Cable Solar MC4 -> XT60i / DC8020 acoplándose */}
                 <g className="bit-insert">
-                  <rect x="304" y="204" width="58" height="14" rx="4" fill="#f59e0b" />
-                  <polygon points="362,202 380,211 362,220" fill="#10b981" />
+                  <rect x="316" y="204" width="48" height="14" rx="4" fill="#f59e0b" />
+                  <polygon points="364,202 380,211 364,220" fill="#10b981" />
                 </g>
 
                 {/* Panel Solar Plegable abajo */}
                 <g className="battery-pack">
                   <rect
-                    x="74"
+                    x="48"
                     y="314"
-                    width="252"
+                    width="304"
                     height="56"
                     rx="12"
                     fill="#0c4a6e"
                     stroke="#38bdf8"
                     strokeWidth="3"
                   />
-                  <line x1="137" y1="314" x2="137" y2="370" stroke="#38bdf8" strokeWidth="2" />
+                  <line x1="124" y1="314" x2="124" y2="370" stroke="#38bdf8" strokeWidth="2" />
                   <line x1="200" y1="314" x2="200" y2="370" stroke="#38bdf8" strokeWidth="2" />
-                  <line x1="263" y1="314" x2="263" y2="370" stroke="#38bdf8" strokeWidth="2" />
+                  <line x1="276" y1="314" x2="276" y2="370" stroke="#38bdf8" strokeWidth="2" />
                   <text
                     x="200"
-                    y="347"
+                    y="346"
                     textAnchor="middle"
-                    fontSize="11"
+                    fontSize="10"
                     fontWeight="800"
                     fill="#fef08a"
                   >

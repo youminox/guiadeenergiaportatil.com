@@ -61,6 +61,12 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
+  verification: {
+    google: [
+      "google07464c8c60a81e7a",
+      "172C7_Myoxhj0Y7awkbiE22513T05NSfBYUdmPFvxgY",
+    ],
+  },
   other: {
     "google-adsense-account": "ca-pub-1070738569472471",
   },

@@ -90,141 +90,57 @@ export default function ScenarioSlider() {
             height="85"
             fill={blackout > 0.5 ? "#09101a" : "#d1fae5"}
           />
+        </svg>
 
+        {/* Tarjeta comparativa HTML responsiva (sin desbordamiento de texto en ningún tamaño de pantalla) */}
+        <div className="pointer-events-none absolute inset-0 flex flex-col items-center justify-center px-3 pt-16 pb-12 sm:px-6 sm:pt-14 sm:pb-14">
           {blackout < 0.5 ? (
-            <g>
-              <rect
-                x="185"
-                y="142"
-                width="430"
-                height="198"
-                rx="18"
-                fill="#ffffff"
-                stroke="#10b981"
-                strokeWidth="4"
-              />
-              <text
-                x="400"
-                y="194"
-                textAnchor="middle"
-                fontFamily="Outfit, sans-serif"
-                fontWeight="800"
-                fontSize="17"
-                fill="#065f46"
-              >
+            <div className="w-full max-w-[540px] rounded-2xl border-[3px] border-emerald-500 bg-white/95 px-4 py-3.5 text-center shadow-xl backdrop-blur-sm sm:px-6 sm:py-5">
+              <p className="font-display text-sm font-extrabold leading-snug text-emerald-900 sm:text-lg">
                 ⛺ Camping y Ruta: Jackery 300 Plus / EcoFlow RIVER 2 Max
-              </text>
-              <text
-                x="400"
-                y="228"
-                textAnchor="middle"
-                fontSize="13.5"
-                fontWeight="700"
-                fill="#0f172a"
-              >
-                ✓ 3.75 a 6.0 kg · Cabe en maletero o mochila de viaje
-              </text>
-              <text
-                x="400"
-                y="256"
-                textAnchor="middle"
-                fontSize="13"
-                fontWeight="600"
-                fill="#334155"
-              >
-                ✓ Refri portátil 12V (22–26 h) + Laptop USB-C + Cámaras/Drones
-              </text>
-              <text
-                x="400"
-                y="284"
-                textAnchor="middle"
-                fontSize="13"
-                fontWeight="700"
-                fill="#0284c7"
-              >
-                ✓ Recarga solar con panel plegable 100W–220W o alternador 12V
-              </text>
-            </g>
+              </p>
+              <ul className="mt-2.5 space-y-1.5 text-xs leading-snug sm:mt-3 sm:text-[0.84rem]">
+                <li className="font-bold text-slate-900">
+                  ✓ 3.75 a 6.0 kg · Cabe en maletero o mochila de viaje
+                </li>
+                <li className="font-semibold text-slate-700">
+                  ✓ Refri portátil 12V (22–26 h) + Laptop USB-C + Cámaras/Drones
+                </li>
+                <li className="font-bold text-sky-700">
+                  ✓ Recarga solar con panel plegable 100W–220W o alternador 12V
+                </li>
+              </ul>
+            </div>
           ) : (
-            <g opacity={fullBlackout}>
-              <rect
-                x="185"
-                y="140"
-                width="430"
-                height="205"
-                rx="18"
-                fill="#0f172a"
-                stroke="#f59e0b"
-                strokeWidth="4"
-              />
-              <text
-                x="400"
-                y="194"
-                textAnchor="middle"
-                fontFamily="Outfit, sans-serif"
-                fontWeight="800"
-                fontSize="17"
-                fill="#fde68a"
-              >
+            <div
+              className="w-full max-w-[560px] rounded-2xl border-[3px] border-amber-500 bg-slate-900/95 px-4 py-3.5 text-center shadow-xl backdrop-blur-sm sm:px-6 sm:py-5"
+              style={{ opacity: Math.max(0.75, fullBlackout) }}
+            >
+              <p className="font-display text-sm font-extrabold leading-snug text-amber-200 sm:text-lg">
                 🏠 Corte de Luz: EcoFlow DELTA 2 / Jackery 1000 v2 / BLUETTI AC180
-              </text>
-              <text
-                x="400"
-                y="228"
-                textAnchor="middle"
-                fontSize="13.5"
-                fontWeight="700"
-                fill="#ffffff"
-              >
-                ✓ 1024Wh–2048Wh LiFePO4 · 0 dB de gases (seguro dentro de casa)
-              </text>
-              <text
-                x="400"
-                y="256"
-                textAnchor="middle"
-                fontSize="13"
-                fontWeight="600"
-                fill="#cbd5e1"
-              >
-                ✓ Router Wi-Fi (~50 h) + Laptop (~15 h) + Nevera de casa (8–14 h)
-              </text>
-              <text
-                x="400"
-                y="284"
-                textAnchor="middle"
-                fontSize="13"
-                fontWeight="700"
-                fill="#6ee7b7"
-              >
-                ✓ Conmutación automática UPS/EPS y recarga pared en 50–60 min
-              </text>
-            </g>
+              </p>
+              <ul className="mt-2.5 space-y-1.5 text-xs leading-snug sm:mt-3 sm:text-[0.84rem]">
+                <li className="font-bold text-white">
+                  ✓ 1024Wh–2048Wh LiFePO4 · 0 dB de gases (seguro dentro de casa)
+                </li>
+                <li className="font-semibold text-slate-300">
+                  ✓ Router Wi-Fi (~50 h) + Laptop (~15 h) + Nevera de casa (8–14 h)
+                </li>
+                <li className="font-bold text-emerald-300">
+                  ✓ Conmutación automática UPS/EPS y recarga pared en 50–60 min
+                </li>
+              </ul>
+            </div>
           )}
 
-          <rect
-            x="110"
-            y="354"
-            width="580"
-            height="34"
-            rx="10"
-            fill="#0B1520"
-            stroke="#f59e0b"
-            strokeWidth="2"
-          />
-          <text
-            x="400"
-            y="375"
-            textAnchor="middle"
-            fontFamily="Outfit, sans-serif"
-            fontWeight="800"
-            fontSize="12"
-            fill="#fef08a"
-          >
-            {blackout > 0.5
-              ? "Ideal para cortes de luz en departamento, teletrabajo sin cortes y conservar alimentos en la nevera"
-              : "Ideal para campamentos de fin de semana, overlanding, CPAP nocturno y fotografía fuera de red"}
-          </text>
-        </svg>
+          <div className="mt-3 w-full max-w-[600px] rounded-xl border-2 border-amber-500 bg-[#0B1520]/95 px-3.5 py-2 text-center shadow-md">
+            <p className="font-display text-[0.7rem] font-extrabold leading-snug text-amber-200 sm:text-xs">
+              {blackout > 0.5
+                ? "Ideal para cortes de luz en departamento, teletrabajo sin cortes y conservar alimentos en la nevera"
+                : "Ideal para campamentos de fin de semana, overlanding, CPAP nocturno y fotografía fuera de red"}
+            </p>
+          </div>
+        </div>
 
         <div className="pointer-events-none absolute left-4 top-4 rounded-2xl border border-white/30 bg-slate-950/65 px-4 py-2 text-white backdrop-blur-md sm:left-6 sm:top-6">
           <p className="text-[0.68rem] font-bold uppercase tracking-[0.14em] text-white/75">
