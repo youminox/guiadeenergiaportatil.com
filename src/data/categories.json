@@ -1,0 +1,86 @@
+[
+  {
+    "slug": "resenas-estaciones-de-energia",
+    "name": "Reseñas de Estaciones Portátiles",
+    "icon": "station",
+    "description": "Análisis reales de Jackery, EcoFlow, BLUETTI y Anker SOLIX en Amazon EE. UU.: capacidad Wh, potencia W, peso, tiempo de recarga y precio."
+  },
+  {
+    "slug": "comparativas-jackery-ecoflow-bluetti",
+    "name": "Comparativas Jackery vs EcoFlow vs BLUETTI",
+    "icon": "scale",
+    "description": "Duelos directos Modelo A vs Modelo B y marca contra marca para decidir cuál ofrece mayor autonomía, carga solar y silencio."
+  },
+  {
+    "slug": "mejores-estaciones-por-uso-y-capacidad",
+    "name": "Mejores Estaciones por Uso y Capacidad",
+    "icon": "tag",
+    "description": "Rankings en Amazon por escenario (camping, viajes, cortes de luz en casa, nevera, CPAP) y rango de capacidad (300Wh a 3600Wh)."
+  },
+  {
+    "slug": "paneles-solares-plegables",
+    "name": "Paneles Solares Plegables",
+    "icon": "solar",
+    "description": "Reseñas y comparativas de paneles portátiles de 40W a 400W (SolarSaga, EcoFlow Bifacial, BLUETTI PV y Renogy MC4) con compatibilidad exacta."
+  },
+  {
+    "slug": "cargadores-baterias-extra-y-accesorios",
+    "name": "Cargadores, Baterías Extra y Accesorios",
+    "icon": "battery",
+    "description": "Cargadores de alternador (560W–800W) para viajes, baterías de expansión LiFePO4, neveras portátiles 12V, fundas y carros de transporte."
+  },
+  {
+    "slug": "cables-adaptadores-y-transferencia",
+    "name": "Cables, Adaptadores y Transferencia",
+    "icon": "cable",
+    "description": "Cables MC4 a XT60i (15A), adaptadores DC7909/DC8020, extensiones solares 10AWG y switches de transferencia manual para cortes de luz."
+  },
+  {
+    "slug": "autonomia-consumo-y-calculo-de-horas",
+    "name": "Cálculo de Horas y Autonomía Real",
+    "icon": "clock",
+    "description": "Cuántas horas exactas dura cada capacidad (300Wh, 500Wh, 1000Wh, 2000Wh) alimentando router, laptop, refrigeradora portátil, CPAP o Starlink."
+  },
+  {
+    "slug": "cortes-de-luz-y-respaldo-en-casa",
+    "name": "Cortes de Luz y Respaldo en Casa",
+    "icon": "home",
+    "description": "Planificación ante apagones domésticos: modo UPS (<10ms) vs EPS, respaldo de neveras, silencio en departamentos y seguridad sin gasolina."
+  },
+  {
+    "slug": "energia-para-camping-viajes-y-camper",
+    "name": "Camping, Viajes y Furgonetas Camper",
+    "icon": "camp",
+    "description": "Dimensionamiento off-grid para carpa, overlanding, teletrabajo en ruta, normativa FAA en avión (<100Wh) y equilibrio entre peso y capacidad."
+  },
+  {
+    "slug": "compatibilidad-solar-mppt-y-carga",
+    "name": "Compatibilidad Solar MPPT y Recarga",
+    "icon": "sun",
+    "description": "Reglas críticas de voltaje Voc/Vmp/Imp en controladores MPPT, conexión en serie vs paralelo, inclinación solar y carga simultánea."
+  },
+  {
+    "slug": "conectores-cables-inversores-y-voltaje",
+    "name": "Conectores, Cables y Voltaje (110V/220V)",
+    "icon": "plug",
+    "description": "Diferencia real entre XT60 y XT60i, DC7909 y DC8020, salida regulada 12V, onda sinusoidal pura y uso de equipos de EE. UU. en 220V."
+  },
+  {
+    "slug": "baterias-lifepo4-ciclos-y-vida-util",
+    "name": "Baterías LiFePO4, Ciclos y Vida Útil",
+    "icon": "chip",
+    "description": "Química LiFePO4 (3,000–4,000 ciclos) frente a NCM, protección BMS bajo 0 °C, calibración del porcentaje y almacenamiento prolongado."
+  },
+  {
+    "slug": "potencia-pico-xboost-y-electrodomesticos",
+    "name": "Potencia Pico, X-Boost y Electrodomésticos",
+    "icon": "bolt",
+    "description": "Diferencia entre watts continuos y arranque de compresores, cuándo usar X-Boost o Power Lifting y qué equipos nunca deben conectarse."
+  },
+  {
+    "slug": "mantenimiento-errores-y-seguridad-electrica",
+    "name": "Mantenimiento, Errores y Seguridad",
+    "icon": "shield",
+    "description": "Solución a apagados automáticos en modo Eco con routers, códigos de error Overload/solar 0W, neutro flotante y protección IP contra lluvia."
+  }
+]
