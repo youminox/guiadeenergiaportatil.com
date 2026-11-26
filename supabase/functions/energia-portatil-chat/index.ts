@@ -61,8 +61,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "EcoFlow DELTA 2 — Estación Portátil LiFePO4 1024Wh / 1800W (Carga 80% en 50 min)",
     subtitle:
       "3,000+ ciclos LiFePO4, 12 kg de peso, carga solar hasta 500W (conector XT60i) y conmutación EPS <30 ms para router, laptop y refrigeradora.",
-    rating: "4.7",
-    reviewsCount: "9.800+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("EcoFlow DELTA 2 Portable Power Station 1024Wh LiFePO4")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("EcoFlow DELTA 2 estacion de energia portatil 1024Wh LiFePO4")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -73,8 +71,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Jackery Explorer 1000 v2 — Estación Portátil LiFePO4 1070Wh / 1500W (10.8 kg)",
     subtitle:
       "4,000 ciclos LiFePO4, carga en 1 hora desde pared, ultra silenciosa (30 dB en modo quiet) y puerto USB-C PD de 100W para camping y viajes.",
-    rating: "4.8",
-    reviewsCount: "14.200+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Jackery Explorer 1000 v2 Portable Power Station 1070Wh LiFePO4")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Jackery Explorer 1000 v2 estacion energia portatil LiFePO4")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -85,8 +81,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "BLUETTI AC180 — Estación de Energía Portátil LiFePO4 1152Wh / 1800W",
     subtitle:
       "3,500+ ciclos LiFePO4, recarga AC de 1440W en ~1 hora, UPS de 20 ms y entrada solar de 500W MPPT para cortes de luz y neveras 12V/AC.",
-    rating: "4.7",
-    reviewsCount: "7.600+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("BLUETTI AC180 Portable Power Station 1152Wh LiFePO4")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("BLUETTI AC180 estacion de energia portatil 1152Wh LiFePO4")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -97,8 +91,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Jackery Explorer 300 Plus — Estación LiFePO4 Compacta 288Wh / 300W (3.75 kg)",
     subtitle:
       "4,000 ciclos LiFePO4, doble USB-C PD 100W sin encender inversor, entrada solar DC8020 hasta 100W y tamaño de mochila.",
-    rating: "4.7",
-    reviewsCount: "5.400+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("Jackery Explorer 300 Plus Portable Power Station 288Wh LiFePO4")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("Jackery Explorer 300 Plus estacion portatil 288Wh LiFePO4")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -109,8 +101,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "EcoFlow RIVER 3 Plus / RIVER 2 Max — Estación LiFePO4 Compacta UPS <10ms",
     subtitle:
       "Silencio <30 dB, protección UPS profesional <10 ms para que tu router y laptop no se reinicien en cortes de luz y carga rápida X-Stream.",
-    rating: "4.7",
-    reviewsCount: "8.100+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("EcoFlow RIVER 3 Plus RIVER 2 Max Portable Power Station LiFePO4")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("EcoFlow RIVER 3 Plus RIVER 2 Max estacion portatil LiFePO4")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -121,8 +111,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "BLUETTI EB3A — Estación Compacta LiFePO4 268Wh / 600W (4.6 kg)",
     subtitle:
       "Inversor de onda pura de 600W (1200W pico), USB-C 100W, carga wireless superior y función UPS económica para router, laptops y luces.",
-    rating: "4.6",
-    reviewsCount: "11.300+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("BLUETTI EB3A Portable Power Station 268Wh 600W LiFePO4")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("BLUETTI EB3A estacion portatil 268Wh 600W LiFePO4")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -133,8 +121,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "EcoFlow DELTA 2 Max / BLUETTI AC200L — Estación 2048Wh LiFePO4 para Casa y Camper",
     subtitle:
       "Mantiene refrigeradora doméstica, router, laptop y microondas durante cortes largos; entrada solar dual MPPT hasta 1000W-1200W.",
-    rating: "4.8",
-    reviewsCount: "4.900+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("EcoFlow DELTA 2 Max BLUETTI AC200L 2048Wh LiFePO4 Power Station")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("EcoFlow DELTA 2 Max BLUETTI AC200L 2048Wh LiFePO4")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -145,8 +131,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Panel Solar Portátil Plegable 200W / 220W Bifacial (EcoFlow · Jackery SolarSaga · BLUETTI PV200)",
     subtitle:
       "Celdas monocristalinas ETFE hasta 23% eficiencia con soporte integrado, impermeable IP68 y salida MC4 lista para recargar en 4–6 h de sol.",
-    rating: "4.7",
-    reviewsCount: "6.200+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("200W Portable Foldable Solar Panel Monocrystalline MC4 EcoFlow Jackery BLUETTI")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("panel solar portatil plegable 200W monocristalino MC4 EcoFlow Jackery BLUETTI")}&tag=${AMAZON_TAG_ES}`,
   },
@@ -157,8 +141,6 @@ const AMAZON_PRODUCTS: Record<string, AmazonProductCard> = {
       "Cable Solar MC4 a XT60i (15A) / Adaptador DC7909 a DC8020 + Cargador Alternador 560W–800W",
     subtitle:
       "Indispensable para conectar paneles solares de terceros o cargar tu estación a máxima velocidad desde el alternador del vehículo en viaje.",
-    rating: "4.8",
-    reviewsCount: "3.900+",
     urlUS: `https://www.amazon.com/s?k=${encodeURIComponent("MC4 to XT60i Solar Cable 10AWG DC8020 Adapter EcoFlow Alternator Charger")}&tag=${AMAZON_TAG_US}`,
     urlES: `https://www.amazon.es/s?k=${encodeURIComponent("cable solar MC4 a XT60i adaptador DC8020 cargador alternador estacion energia")}&tag=${AMAZON_TAG_ES}`,
   },
